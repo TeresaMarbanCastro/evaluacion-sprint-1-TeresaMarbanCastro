@@ -1,5 +1,9 @@
 body{
 	font-family: 'Rubik', serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0px;
 }
 /*header*/
 header{
@@ -23,14 +27,24 @@ nav ul{
 	list-style: none;
 }
 
-body{
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
+/*Principal*/
 main{
 	flex: 1;
+}
+.backimage{
+	height: 100vh;
+	background: url('../images/banner_home_v3.jpeg');
+	background-size: cover;
+	position: relative;
+}
+.diversidad{
+	position: absolute;
+	top: 500px;
+	left: 200px;
+}
+.diversidad h1{
+	color: #555555;
+	font-style: bold;
 }
 /*Colores
 #555555 gris oscuro
