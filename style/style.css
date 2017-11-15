@@ -1,5 +1,5 @@
 body{
-	font-family: 'Rubik', serif;
+	font-family: 'Rubik';
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -9,9 +9,33 @@ body{
 header{
 	position: fixed;
 	z-index: 1;
-	background-color: red;
+	background-color: #fff;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
+	width: 100%;
+	padding: 5px;
+}
+.logo{
+	width: 160px;
+}
+.menu a{
+	text-decoration: none;
+	color: #252525;
+}
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	list-style: none;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+.menu li{
+	padding: 5px;
+	margin: 0px;
 }
 .logo-adalab{
 	width: 150px;
@@ -19,13 +43,17 @@ header{
 	background-color: #fff;
 	margin: 0px;
 }
+nav .menu{
+	/*width: 160px;*/
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
 nav{
 	/*Para desktop justify-content: flex-end;*/
 	flex-direction: row;
 }
-nav ul{
-	list-style: none;
-}
+
 
 /*Principal*/
 main{
@@ -35,17 +63,60 @@ main{
 	height: 100vh;
 	background: url('../images/banner_home_v3.jpeg');
 	background-size: cover;
-	position: relative;
+	background-position: center 50px;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 .diversidad{
-	position: absolute;
-	top: 500px;
-	left: 200px;
+	padding-left: 20px;
 }
 .diversidad h1{
 	color: #555555;
 	font-style: bold;
+	font-size: 25px;
 }
+
+/*footer*/
+footer{
+	box-sizing: border-box;
+	display:flex;
+	background-color: #252525;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+}
+.copyright{
+	color: #555555;
+	margin-left: 10px;
+}
+.cookies{
+	color: #aaaaaa;
+	margin-left: 20px;
+}
+
+/*MEDIAS*/
+@media all and (min-width: 500px) {
+header{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul{
+	margin: 10px;
+}
+}
+
+
+/*Formulario*/
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 /*Colores
 #555555 gris oscuro
 #aaaaaa gris clarito
