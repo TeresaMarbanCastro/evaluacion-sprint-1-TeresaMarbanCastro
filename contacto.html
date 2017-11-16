@@ -10,33 +10,38 @@
 </head>
 <body>
 	<header>
-		<img src="images/logo-adalab.png" alt="Logo Adalab" class="logo-adalab">
+		<div class="logo">
+			<a href="http://adalab.es/">
+				<img src="images/logo-adalab.png" alt="Logo Adalab" class="logo-adalab">
+			</a>
+		</div>
 		<nav class="menu">
 			<ul>
-				<li><a href="http://adalab.es/noticias/" title="blog">BLOG</a></li>
-				<li><a href="contacto.html" title="contacto">CONTACTO</a></li>
+				<li> <a href="http://adalab.es/noticias/" class="text-link" title="blog">BLOG</a></li>
+				<li> <a href="contacto.html" class="text-link" title="contacto"> CONTACTO</a></li>
 			</ul>
 		</nav>
 	</header>
+
 	<form method="post">
 		<div class="intro">
-			<p>En Adalab estamos encantados de proporcionarte la información que necesitas. Hemos creado formularios específicos para inscribirte como alumna, para ser voluntario/a y para empresas que quieran a nuestras alumnas. Para otras consultas completa el siguiente formulario y nos pondremos en contacto contigo.<br>Gracias.</br></p>
+			<p>En Adalab estamos encantados de proporcionarte la información que necesitas. Hemos creado formularios específicos<span class="azulito"> para inscribirte como alumna</span>, <span class="azulito">para ser voluntario/a</span> y<span class="azulito"> para empresas </span>que quieran a nuestras alumnas. Para otras consultas completa el siguiente formulario y nos pondremos en contacto contigo.<br>Gracias.</br></p>
 		</div>
 		<div class="titlename">
-			<p>Nombre</p>
-			<input type="text" name="name" class="name">
+			<p>Nombre*</p>
+			<input type="text" name="name" class="name" required>
 		</div>
 		<div class="titlesurname">
-			<p>Apellidos</p>
-			<input type="text" name="surnames" class="surnames">
+			<p>Apellidos*</p>
+			<input type="text" name="surnames" class="surnames" required>
 		</div>
 		<div class="titlemail">
-			<p>Correo electrónico</p>
-			<input type="email" name="email" class="email">
+			<p>Correo electrónico*</p>
+			<input type="email" name="email" class="email" required>
 		</div>
 		<div class="titlephone">
-			<p>Teléfono móvil</p>
-			<input type="tel" name="phone" class="phone">
+			<p>Teléfono móvil*</p>
+			<input type="tel" name="phone" class="phone" required>
 		</div>
 		<div class="titletextarea">
 			<p>Mensaje</p>
@@ -45,7 +50,12 @@
 		<input type="submit" name="submit" class="submit">
 
 	</form>
-
+	<footer>
+			<span class="copyright">Adalab &copy 2017</span>
+			<span>
+				<a href="http://adalab.es/politica-de-cookies/" class="cookies"> Política de cookies </a>
+			</span>
+	</footer>
 
 </body>
 </html>

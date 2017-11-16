@@ -75,7 +75,7 @@ main{
 .diversidad h1{
 	color: #555555;
 	font-style: bold;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 /*footer*/
@@ -94,8 +94,29 @@ footer{
 .cookies{
 	color: #aaaaaa;
 	margin-left: 20px;
-}
+	text-decoration: none;
 
+}
+/*Formulario*/
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	padding-left: 20px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	color: #555;
+}
+.intro span{
+	color: #3CDBC0;
+}
+form input, textarea{
+	border-radius: 5px;
+	background-color: #f5f5f5;
+
+}
 /*MEDIAS*/
 @media all and (min-width: 500px) {
 header{
@@ -111,17 +132,30 @@ header{
   color: #3CDBC0;
 	border-bottom: 3px solid #3CDBC0 ;
 }
+.diversidad h1{
+	font-size: 38px;
+}
+footer{
+	height: 70px;
+}
 
+}
+
+@media all and (min-width: 900px){
+	.diversidad h1{
+		font-size: 50px;
+	}
+	.backimage{
+		height: 100vh;
+		width: auto;
+	}
+footer{
+	height: 90px;
+}
 }
 /*Fin medias*/
 
-/*Formulario*/
-form{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+
 
 /*Colores
 #555555 gris oscuro
