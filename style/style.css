@@ -17,7 +17,7 @@ header{
 	padding: 5px;
 }
 .logo{
-	width: 160px;
+	width: auto;
 }
 .menu a{
 	text-decoration: none;
@@ -106,8 +106,14 @@ header{
 .menu ul{
 	margin: 10px;
 }
+
+.text-link:hover {
+  color: #3CDBC0;
+	border-bottom: 3px solid #3CDBC0 ;
 }
 
+}
+/*Fin medias*/
 
 /*Formulario*/
 form{
