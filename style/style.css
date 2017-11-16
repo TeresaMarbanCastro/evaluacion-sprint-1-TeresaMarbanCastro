@@ -56,7 +56,6 @@ nav{
 	flex-direction: row;
 }
 
-
 /*Principal*/
 main{
 	flex: 1;
@@ -106,14 +105,20 @@ form{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-left: 20px;
 	margin-bottom: 50px;
+	padding-right: 20px;
 	box-sizing: border-box;
 	color: #555;
 	text-align: justify;
-}
-.intro span{
+	}
+	.cajitas div{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.intro span{
 	color: #3CDBC0;
 }
 form input, textarea{
@@ -122,6 +127,8 @@ form input, textarea{
 }
 .submit{
 	color: #fff;
+	padding: 5px;
+	margin: 5px;
 }
 /*MEDIAS*/
 @media all and (min-width: 500px) {
@@ -174,7 +181,6 @@ input.submit{
 }
 }
 /*Fin medias*/
-
 
 
 /*Colores
