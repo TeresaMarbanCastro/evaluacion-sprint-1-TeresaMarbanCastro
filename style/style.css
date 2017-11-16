@@ -16,8 +16,10 @@ header{
 	width: 100%;
 	padding: 5px;
 }
-.logo{
-	width: auto;
+.logo img{
+	width: 206px;
+	height: 80px;
+	box-sizing: border-box;
 }
 .menu a{
 	text-decoration: none;
@@ -63,11 +65,12 @@ main{
 	height: 100vh;
 	background: url('../images/banner_home_v3.jpeg');
 	background-size: cover;
-	background-position: center 50px;
+	background-position: center center;
 	background-repeat: no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	margin-top: 75px;
 }
 .diversidad{
 	padding-left: 20px;
