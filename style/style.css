@@ -52,7 +52,6 @@ nav .menu{
 	padding: 0px;
 }
 nav{
-	/*Para desktop justify-content: flex-end;*/
 	flex-direction: row;
 }
 
@@ -113,12 +112,12 @@ form{
 	color: #555;
 	text-align: justify;
 	}
-	.cajitas div{
+.cajitas div{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 	}
-	.intro span{
+.intro span{
 	color: #3CDBC0;
 }
 form input, textarea{
