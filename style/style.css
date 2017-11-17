@@ -112,6 +112,9 @@ form{
 	color: #555;
 	text-align: justify;
 	}
+.cajitas{
+	width: 90%;
+}
 .cajitas div{
 		display: flex;
 		flex-direction: column;
@@ -153,8 +156,8 @@ header{
 footer{
 	height: 70px;
 }
-.cajitas input, textarea{
-	width: 500px;
+.cajitas{
+	width: 90%;
 }
 input.submit{
 	width: 100px;
