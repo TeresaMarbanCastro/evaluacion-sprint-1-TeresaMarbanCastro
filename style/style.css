@@ -53,6 +53,10 @@ nav .menu{
 nav{
 	flex-direction: row;
 }
+.text-link:hover {
+  color: #3CDBC0;
+	border-bottom: 3px solid #3CDBC0 ;
+}
 
 /*Principal*/
 main{
@@ -71,7 +75,8 @@ main{
 }
 .diversidad{
 	padding-left: 20px;
-	width: 200px;
+	width: 120px;
+	margin-left: 5px;
 }
 .diversidad h1{
 	color: #555555;
@@ -117,14 +122,12 @@ form{
 }
 .cajitas div{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: flex-start;
-		padding: 20px;
-		margin: 10px;
+		padding: 5px;
+		margin: 7px;
 	}
-.cajitas label{
-	width: 30%;
-}
+
 .intro span{
 	color: #3CDBC0;
 }
@@ -148,16 +151,14 @@ header{
 .menu ul{
 	margin: 10px;
 }
-
-.text-link:hover {
-  color: #3CDBC0;
-	border-bottom: 3px solid #3CDBC0 ;
-}
 .intro{
 	padding-right: 20px;
 }
 .diversidad h1{
 	font-size: 38px;
+}
+.diversidad{
+	width: 200px;
 }
 footer{
 	height: 70px;
@@ -173,6 +174,9 @@ input.submit{
 @media all and (min-width: 900px){
 	.diversidad h1{
 		font-size: 50px;
+	}
+	.diversidad{
+		width: 250px;
 	}
 	.backimage{
 		height: 100vh;
